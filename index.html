@@ -2,10 +2,15 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PLCHFTNHG"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4PLCHFTNHG"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
       gtag('config', 'G-4PLCHFTNHG');
     </script>
@@ -13,9 +18,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Welcome to my first website" />
     <title>My First Website - Home</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  
+
   <body>
-    Hello
+    <header>
+      <h1>Welcome to My First Website</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article>
+        <h2>About This Website</h2>
+        <p>This is my first multi-page website. I'm learning about:</p>
+        <ul>
+          <li>HTML document structure</li>
+          <li>Semantic HTML5 tags</li>
+          <li>Forms and user input</li>
+          <li>Links and navigation</li>
+        </ul>
+
+        <h3>What I've Learned</h3>
+        <p>
+          Throughout this session, I've discovered how HTML provides the
+          structure for every webpage on the internet.
+        </p>
+
+        <!-- Horizontal rule for visual separation -->
+        <hr />
+
+        <h3>My Favorite Web Technologies</h3>
+        <ol>
+          <li>HTML - For structure</li>
+          <li>CSS - For styling</li>
+          <li>JavaScript - For interactivity</li>
+        </ol>
+      </article>
+
+      <!-- Sidebar -->
+      <aside>
+        <h3>Quick Links</h3>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN HTML Docs</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/" target="_blank"
+              >W3Schools HTML Tutorial</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 My First Website. All rights reserved.</p>
+      <p>Created during Level 1 - Session 1</p>
+    </footer>
   </body>
 </html>
